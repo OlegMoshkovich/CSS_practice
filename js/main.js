@@ -1,6 +1,6 @@
 // document.querySelector('#focus').style.background = getRandomColor()
 
-var array = ['Frontend engineering', 'Product Design',  'Balance.'];
+var array = ['Frontend engineering.', 'Product Design.',  'Balance.'];
 
 
 

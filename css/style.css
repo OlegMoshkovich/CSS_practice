@@ -83,6 +83,12 @@ body {
     font-weight: 100;
     letter-spacing: .1rem;
     margin-bottom: 6rem; }
+  .heading-primary--project-ribbon {
+    display: block;
+    font-size: 3rem;
+    font-weight: 100;
+    letter-spacing: .1rem;
+    margin-bottom: 12rem; }
 
 .heading-secondary {
   font-weight: 400;
@@ -132,8 +138,21 @@ body {
 .end {
   padding: 4rem;
   color: #0029FF;
-  font-weight: 700;
+  background-color: white;
   text-align: center; }
+
+.bg-video {
+  position: relative;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  z-index: -1;
+  opacity: .2; }
+  .bg-video__content {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; }
 
 .btn:link, .btn:visited {
   text-transform: uppercase;
@@ -282,6 +301,10 @@ body {
   background-color: #fff;
   padding: 0rem 0; }
 
+.section-project-ribbon {
+  background-color: #fff;
+  padding: 0rem 0; }
+
 .work-image {
   width: 100%; }
 
@@ -295,6 +318,14 @@ body {
 .section-open {
   text-align: center;
   z-index: 1; }
+
+.section-open-ribbon {
+  text-align: center;
+  z-index: 1;
+  margin-bottom: -16rem; }
+
+.section-ribbon {
+  position: relative; }
 
 .header {
   height: 100vh;

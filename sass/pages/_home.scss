@@ -10,6 +10,12 @@
   // margin-top: -20vh;
 }
 
+.section-project-ribbon{
+  background-color:$color-white;
+  padding:0rem 0;
+  // margin-top: -20vh;
+}
+
 .work-image{
   width:100%;
 }
@@ -26,4 +32,13 @@
 .section-open{
   text-align: center;
   z-index: 1
+}
+.section-open-ribbon{
+  text-align: center;
+  z-index: 1;
+  margin-bottom:-16rem;
+}
+
+.section-ribbon{
+  position:relative;
 }
