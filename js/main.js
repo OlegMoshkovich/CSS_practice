@@ -11,6 +11,8 @@ array.forEach(function (el,index) {
   }, index * 2000);
 })
 
+document.querySelector('.bg-video__content').defaultPlaybackRate = .5;
+// document.querySelector('video').play()
 
 //Closures
 
