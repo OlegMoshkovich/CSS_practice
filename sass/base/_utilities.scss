@@ -32,12 +32,20 @@
   text-decoration:none;
   color:$color-white;
 }
+.linkR-in{
+  background-color:#0029FF;
+  text-decoration:none;
+  color:$color-white;
+  padding-right:.5rem;
+  padding-left:.5rem;
+  font-weight:400;
+}
 .link:hover{
   // text-decoration:underline;
 }
 
 .end{
-  padding:4rem;
+  padding:3rem;
   color:#0029FF;
   background-color:white;
   text-align: center;

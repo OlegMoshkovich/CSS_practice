@@ -33,7 +33,6 @@ body {
   // animation-duration: 3s;
   // animation-timing-function: ease-out;
   }
-
   &--sub{
   display: block;
   font-size: 2rem;
@@ -60,6 +59,19 @@ body {
   // animation-duration: 3s;
   margin-bottom: 6rem;
   }
+
+  &--project-more{
+  display: block;
+  font-size: 2rem;
+  font-weight: 100;
+  letter-spacing: .1rem;
+  animation-name: moveInRight;
+  // animation-duration: 3s;
+  margin-bottom: 0rem;
+  }
+
+
+
   &--project-ribbon{
   display: block;
   font-size: 3rem;

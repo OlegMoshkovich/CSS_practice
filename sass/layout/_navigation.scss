@@ -9,6 +9,14 @@
     z-index: 100;
   };
 
+  &__description{
+  position:absolute;
+  color:white;
+  width:70%;
+  top:4rem;
+  left:4rem;
+  };
+
   &__checkbox{
     position:fixed;
     top:6.5rem;

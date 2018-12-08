@@ -45,8 +45,11 @@
   }
   &__text{
     position:relative;
+    left:10%;
+    right:10%;
     font-size: 2rem;
-    top:90%;
+    top:85%;
+    width:80%;
   }
   &__close{
     &:link,

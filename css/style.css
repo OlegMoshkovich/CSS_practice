@@ -82,6 +82,13 @@ body {
     font-weight: 100;
     letter-spacing: .1rem;
     margin-bottom: 6rem; }
+  .heading-primary--project-more {
+    display: block;
+    font-size: 2rem;
+    font-weight: 100;
+    letter-spacing: .1rem;
+    animation-name: moveInRight;
+    margin-bottom: 0rem; }
   .heading-primary--project-ribbon {
     display: block;
     font-size: 3rem;
@@ -139,8 +146,16 @@ body {
   text-decoration: none;
   color: #fff; }
 
+.linkR-in {
+  background-color: #0029FF;
+  text-decoration: none;
+  color: #fff;
+  padding-right: .5rem;
+  padding-left: .5rem;
+  font-weight: 400; }
+
 .end {
-  padding: 4rem;
+  padding: 3rem;
   color: #0029FF;
   background-color: white;
   text-align: center; }
@@ -267,8 +282,11 @@ body {
     width: 50%; }
   .popup__text {
     position: relative;
+    left: 10%;
+    right: 10%;
     font-size: 2rem;
-    top: 90%; }
+    top: 85%;
+    width: 80%; }
   .popup__close:link, .popup__close:visited {
     position: absolute;
     line-height: 1;
@@ -378,6 +396,12 @@ body {
     width: 85vw;
     left: 50%;
     text-align: left; }
+  .header__project-box-more {
+    margin-left: 10rem;
+    width: 85vw;
+    left: 50%;
+    padding-top: 6rem;
+    text-align: center; }
   .header__project-box-opening {
     margin-left: 10rem;
     width: 85vw;
@@ -423,6 +447,13 @@ body {
   left: 10rem;
   font-size: 2rem;
   z-index: 100; }
+
+.navigation__description {
+  position: absolute;
+  color: white;
+  width: 70%;
+  top: 4rem;
+  left: 4rem; }
 
 .navigation__checkbox {
   position: fixed;
