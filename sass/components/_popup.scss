@@ -22,11 +22,11 @@
 
   &__content{
     @include horizontalVertical;
-    width: 75%;
+    width: 60%;
     height:75vh;
     background-color: white;
     box-shadow: 0 2rem 4rem rgba(black, .2);
-    border-radius: 3px;
+    border-radius: 20px;
   }
   &__img{
     @include horizontalVertical;
@@ -39,6 +39,13 @@
   &__img-ribbon{
     @include horizontalVertical;
     transform: translate(-50%,-60%);
+    display:block;
+    width:65%;
+  }
+
+  &__img-hcs{
+    @include horizontalVertical;
+    transform: translate(-50%,-50%);
     display:block;
     width:50%;
 
