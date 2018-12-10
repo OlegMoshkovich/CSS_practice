@@ -171,14 +171,17 @@ body {
   font-weight: 100; }
 
 .link_side {
-  font-size: 1rem;
+  font-size: .3rem;
   color: blue;
   margin-top: 6rem;
   text-align: center;
   font-weight: 100;
   transform: rotate(-90deg);
-  z-index: 1000;
   text-decoration: none; }
+  .link_side:hover {
+    font-size: .3rem; }
+  .link_side:active {
+    transform: rotate(-80deg); }
 
 .end {
   padding: 3rem;
@@ -547,7 +550,7 @@ body {
   position: fixed;
   top: 4.9rem;
   right: 21rem;
-  background-color: red;
+  background-color: blue;
   z-index: 1000;
   border-radius: 50%;
   height: 1.5rem;
@@ -563,6 +566,51 @@ body {
   top: 7rem;
   right: 23rem;
   background-color: red;
+  z-index: 1000;
+  border-radius: 50%;
+  height: 1.5rem;
+  width: 1.5rem;
+  -webkit-touch-callout: none;
+  user-select: none;
+  text-align: center; }
+
+.navigation__button-link3 {
+  font-size: 1.5rem;
+  color: #fff;
+  position: fixed;
+  bottom: 3rem;
+  right: 13rem;
+  background-color: red;
+  z-index: 1000;
+  border-radius: 50%;
+  height: 1.5rem;
+  width: 1.5rem;
+  -webkit-touch-callout: none;
+  user-select: none;
+  text-align: center; }
+
+.navigation__button-link4 {
+  font-size: 1.5rem;
+  color: #fff;
+  position: fixed;
+  bottom: 3rem;
+  left: 5rem;
+  background-color: blue;
+  z-index: 1000;
+  border-radius: 50%;
+  height: 1.5rem;
+  width: 1.5rem;
+  -webkit-touch-callout: none;
+  user-select: none;
+  text-align: center; }
+
+.navigation__button-link5 {
+  font-size: 1.5rem;
+  color: #fff;
+  position: fixed;
+  bottom: 5rem;
+  left: 5rem;
+  background-color: blue;
   z-index: 1000;
   border-radius: 50%;
   height: 1.5rem;

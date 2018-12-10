@@ -73,7 +73,7 @@
     position:fixed;
     top:4.9rem;
     right:21rem;
-    background-color: red;
+    background-color: blue;
     z-index: 1000;
     border-radius: 50%;
     height:1.5rem;
@@ -96,6 +96,66 @@
     -webkit-touch-callout: none;
      user-select: none;
     text-align: center;
+  };
+
+  &__button-link3{
+    font-size: 1.5rem;
+    color:$color-white;
+    position:fixed;
+    bottom:3rem;
+    right:13rem;
+    background-color: red;
+    z-index: 1000;
+    border-radius: 50%;
+    height:1.5rem;
+    width:1.5rem;
+    -webkit-touch-callout: none;
+     user-select: none;
+    text-align: center;
+    // &:hover
+    // {
+    //   height:2.5rem;
+    //   width:2.5rem;
+    //   bottom:3rem;
+    //   right:22.5rem;
+    //   // font-size:.3rem;
+    //   // text-decoration: underline;
+    //   // transform: rotate(0deg);
+    // }
+  };
+
+  &__button-link4{
+    font-size: 1.5rem;
+    color:$color-white;
+    position:fixed;
+    bottom:3rem;
+    left:5rem;
+    background-color: blue;
+    z-index: 1000;
+    border-radius: 50%;
+    height:1.5rem;
+    width:1.5rem;
+    -webkit-touch-callout: none;
+     user-select: none;
+    text-align: center;
+
+  };
+
+  &__button-link5{
+    font-size: 1.5rem;
+    color:$color-white;
+    position:fixed;
+    bottom:5rem;
+    left:5rem;
+    background-color: blue;
+    z-index: 1000;
+    border-radius: 50%;
+    height:1.5rem;
+    width:1.5rem;
+    -webkit-touch-callout: none;
+     user-select: none;
+    text-align: center;
+
   };
 
   &__icon{
