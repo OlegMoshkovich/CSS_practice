@@ -46,7 +46,7 @@
 .section-open-ribbon{
   text-align: center;
   z-index: 1;
-  margin-bottom:-16rem;
+  margin-bottom:-15rem;
 }
 
 .section-ribbon{
@@ -58,5 +58,14 @@ border-bottom: 1px solid lightgrey;
 width:50%;
 margin-left: auto;
 margin-right: auto;
+}
+
+.section-border-open{
+border-bottom: 1px solid lightgrey;
+width:50%;
+margin-left: 7%;
+margin-bottom: 2%;
+
+
 
 }

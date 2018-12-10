@@ -24,6 +24,13 @@ body {
   backface-visibility: hidden;
   margin-bottom: 6rem;
 
+  &_title{
+  display: block;
+  font-size:rem;
+  font-weight: 100;
+  letter-spacing: 0rem;
+  }
+  
   &--main{
   display: block;
   font-size: 4rem;

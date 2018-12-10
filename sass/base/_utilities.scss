@@ -32,14 +32,26 @@
   text-decoration:none;
   color:$color-white;
 }
+.linkA{
+  background-color:none;
+  text-decoration:none;
+  color:$color-black;
+}
 .linkR-in{
-  background-color:#0029FF;
+  background-color:#0000FF;
   text-decoration:none;
   color:$color-white;
   padding-right:.5rem;
   padding-left:.5rem;
   font-weight:400;
 }
+.link_title{
+  background-color:#36FF37;
+  text-decoration:none;
+  color:$color-black;
+  font-weight:400;
+}
+
 .link:hover{
   // text-decoration:underline;
 }
