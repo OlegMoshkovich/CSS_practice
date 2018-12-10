@@ -154,7 +154,7 @@ body {
 .linkA {
   background-color: none;
   text-decoration: none;
-  color: #000; }
+  color: #0029FF; }
 
 .linkR-in {
   background-color: #0000FF;
@@ -168,7 +168,17 @@ body {
   background-color: #36FF37;
   text-decoration: none;
   color: #000;
-  font-weight: 400; }
+  font-weight: 100; }
+
+.link_side {
+  font-size: 1rem;
+  color: blue;
+  margin-top: 6rem;
+  text-align: center;
+  font-weight: 100;
+  transform: rotate(-90deg);
+  z-index: 1000;
+  text-decoration: none; }
 
 .end {
   padding: 3rem;
@@ -486,6 +496,16 @@ body {
   top: 4rem;
   left: 4rem; }
 
+.navigation_new {
+  position: fixed;
+  float: left;
+  list-style: none; }
+  .navigation_new li {
+    display: inline-block;
+    margin-left: 30px; }
+    .navigation_new li:first-child {
+      margin: 0; }
+
 .navigation__checkbox {
   position: fixed;
   top: 6.5rem;
@@ -506,18 +526,63 @@ body {
   user-select: none;
   text-align: center; }
 
+.navigation__button-link {
+  font-size: 1.5rem;
+  color: #fff;
+  position: fixed;
+  top: 4.9rem;
+  right: 19rem;
+  background-color: red;
+  z-index: 1000;
+  border-radius: 50%;
+  height: 1.5rem;
+  width: 1.5rem;
+  -webkit-touch-callout: none;
+  user-select: none;
+  text-align: center; }
+
+.navigation__button-link1 {
+  font-size: 1.5rem;
+  color: #fff;
+  position: fixed;
+  top: 4.9rem;
+  right: 21rem;
+  background-color: red;
+  z-index: 1000;
+  border-radius: 50%;
+  height: 1.5rem;
+  width: 1.5rem;
+  -webkit-touch-callout: none;
+  user-select: none;
+  text-align: center; }
+
+.navigation__button-link2 {
+  font-size: 1.5rem;
+  color: #fff;
+  position: fixed;
+  top: 7rem;
+  right: 23rem;
+  background-color: red;
+  z-index: 1000;
+  border-radius: 50%;
+  height: 1.5rem;
+  width: 1.5rem;
+  -webkit-touch-callout: none;
+  user-select: none;
+  text-align: center; }
+
 .navigation__icon {
   font-size: 1.5rem;
   color: #fff;
   position: absolute;
   top: 2.2rem;
-  left: 2.2rem; }
+  left: 2.1rem; }
   .navigation__icon-close {
     font-size: 1.5rem;
     color: #fff;
     position: absolute;
     top: 2.2rem;
-    left: 1.7rem;
+    left: 1.6rem;
     display: none; }
 
 .navigation__background {
@@ -576,10 +641,7 @@ body {
   width: 100%;
   opacity: 1; }
 
-.navigation__button:hover .navigation__icon {
-  left: 2.2rem; }
-
-.navigation__checkbox:checked + .navigation__button .navigation__icon {
+.navigation__checkbox:checked + .navigation__button .navigation__icon .navigation__button-link2 {
   display: none; }
 
 .navigation__checkbox:checked + .navigation__button .navigation__icon-close {

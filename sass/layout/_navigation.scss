@@ -16,7 +16,22 @@
   top:4rem;
   left:4rem;
   };
+  &_new{
+    position:fixed;
+    float:left;
+    list-style: none;
+    li{
+      display:inline-block;
+      margin-left:30px;
 
+      &:first-child{
+      margin:0
+      }
+      // a {
+      //   @include text-style($color-text-dark)
+      // }
+    }
+  };
   &__checkbox{
     position:fixed;
     top:6.5rem;
@@ -37,19 +52,65 @@
      user-select: none;
     text-align: center;
   };
+  &__button-link{
+    font-size: 1.5rem;
+    color:$color-white;
+    position:fixed;
+    top:4.9rem;
+    right:19rem;
+    background-color: red;
+    z-index: 1000;
+    border-radius: 50%;
+    height:1.5rem;
+    width:1.5rem;
+    -webkit-touch-callout: none;
+     user-select: none;
+    text-align: center;
+  };
+  &__button-link1{
+    font-size: 1.5rem;
+    color:$color-white;
+    position:fixed;
+    top:4.9rem;
+    right:21rem;
+    background-color: red;
+    z-index: 1000;
+    border-radius: 50%;
+    height:1.5rem;
+    width:1.5rem;
+    -webkit-touch-callout: none;
+     user-select: none;
+    text-align: center;
+  };
+  &__button-link2{
+    font-size: 1.5rem;
+    color:$color-white;
+    position:fixed;
+    top:7rem;
+    right:23rem;
+    background-color: red;
+    z-index: 1000;
+    border-radius: 50%;
+    height:1.5rem;
+    width:1.5rem;
+    -webkit-touch-callout: none;
+     user-select: none;
+    text-align: center;
+  };
+
   &__icon{
     font-size: 1.5rem;
     color:$color-white;
     position:absolute;
     top:2.2rem;
-    left:2.2rem;
+    left:2.1rem;
 
     &-close{
       font-size: 1.5rem;
       color:$color-white;
       position:absolute;
       top:2.2rem;
-      left:1.7rem;
+      left:1.6rem;
       display:none;
     }
   };
@@ -126,11 +187,12 @@
     opacity:1;
   }
   &__button:hover &__icon {
-    left:2.2rem;
+    // left:2.2rem;
   }
 
 
-  &__checkbox:checked + &__button &__icon{
+
+  &__checkbox:checked + &__button &__icon &__button-link2{
     display:none;
   }
   &__checkbox:checked + &__button &__icon-close{

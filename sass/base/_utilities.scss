@@ -35,7 +35,7 @@
 .linkA{
   background-color:none;
   text-decoration:none;
-  color:$color-black;
+  color:#0029FF;
 }
 .linkR-in{
   background-color:#0000FF;
@@ -49,7 +49,19 @@
   background-color:#36FF37;
   text-decoration:none;
   color:$color-black;
-  font-weight:400;
+  font-weight:100;
+}
+.link_side{
+  font-size:1rem;
+  color:blue;
+  margin-top:6rem;
+  text-align: center;
+  font-weight:100;
+  transform: rotate(-90deg);
+  z-index:1000;
+  text-decoration:none;
+
+
 }
 
 .link:hover{
