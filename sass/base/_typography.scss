@@ -1,5 +1,7 @@
 body {
-  font-family: "Helvetica", sans-serif;
+  // font-family: 'Source Code Pro', monospace;
+  // font-family: "Source Code Pro", sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-weight: 400;
   font-size: 1.6rem;
   // line-height:3.4rem;
@@ -14,15 +16,18 @@ body {
   // text-transform: uppercase;
 }
 .heading-primary{
-  color:$color-black;
+  color:blue;
   display: block;
   width:70vw;
   font-size:6rem;
   font-weight:300;
   letter-spacing:.1rem;
+  line-height: 7.5rem;
   // text-transform: uppercase;
   backface-visibility: hidden;
   margin-bottom: 6rem;
+
+
 
   &_title{
   display: block;
@@ -30,7 +35,7 @@ body {
   font-weight: 100;
   letter-spacing: 0rem;
   }
-  
+
   &--main{
   display: block;
   font-size: 4rem;
@@ -59,12 +64,13 @@ body {
   }
   &--project{
   display: block;
-  font-size: 3rem;
-  font-weight: 100;
+  font-size: 2.5rem;
+  font-weight: 300;
   letter-spacing: .1rem;
   // animation-name: moveInRight;
   // animation-duration: 3s;
   margin-bottom: 6rem;
+  color:blue
   }
 
   &--project-more{
@@ -81,8 +87,8 @@ body {
 
   &--project-ribbon{
   display: block;
-  font-size: 3rem;
-  font-weight: 100;
+  font-size: 2.5rem;
+  font-weight: 400;
   letter-spacing: .1rem;
   // animation-name: moveInRight;
   // animation-duration: 3s;

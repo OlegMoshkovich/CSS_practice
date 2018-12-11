@@ -23,9 +23,10 @@
 }
 
 .link{
-  background-color:#0029FF;
-  text-decoration:none;
-  color:$color-white;
+  // background-color:#0029FF;
+  // text-decoration:underline;
+  color:black;
+  border-bottom: 1px;
 }
 .linkR{
   background-color:red;
@@ -35,7 +36,7 @@
 .linkA{
   background-color:none;
   text-decoration:none;
-  color:#0029FF;
+  color:black;
 }
 .linkR-in{
   background-color:#0000FF;
@@ -46,11 +47,24 @@
   font-weight:400;
 }
 .link_title{
-  background-color:#36FF37;
+  background-color:#0029FF;
   text-decoration:none;
-  color:$color-black;
-  font-weight:100;
+  color:$color-white;
+  font-weight:300;
+
 }
+
+.link_title-opening{
+  position: absolute;
+  left:7%;
+  top:-2rem;
+  background-color:#0029FF;
+  text-decoration:none;
+  color:$color-white;
+  font-weight:300;
+  font-size: 2.5rem;
+}
+
 .link_side{
   font-size:.3rem;
   color:blue;
