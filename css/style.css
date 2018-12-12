@@ -82,13 +82,6 @@ body {
     font-size: 3rem;
     font-weight: 600;
     animation-name: moveInRight; }
-  .heading-primary--project {
-    display: block;
-    font-size: 2.5rem;
-    font-weight: 300;
-    letter-spacing: .1rem;
-    margin-bottom: 6rem;
-    color: blue; }
   .heading-primary--project-more {
     display: block;
     font-size: 2rem;
@@ -126,6 +119,40 @@ body {
   font-weight: 200; }
   .paragraph:not(:last-child) {
     margin-bottom: 3rem; }
+
+.project_text {
+  color: blue;
+  display: block;
+  width: 70vw;
+  font-size: 6rem;
+  font-weight: 300;
+  letter-spacing: .1rem;
+  line-height: 7.5rem;
+  backface-visibility: hidden;
+  margin-bottom: 6rem; }
+
+.global_title {
+  position: absolute;
+  left: 7%;
+  top: -2rem;
+  background-color: #0029FF;
+  text-decoration: none;
+  color: #fff;
+  font-weight: 300;
+  font-size: 2.5rem; }
+
+.project_title {
+  background-color: #0029FF;
+  text-decoration: none;
+  color: #fff;
+  font-weight: 300;
+  font-size: 2.5rem; }
+
+.heading-primary--project {
+  font-weight: 300;
+  letter-spacing: .1rem;
+  margin-bottom: 6rem;
+  color: blue; }
 
 .u-center-text {
   text-align: center; }
@@ -374,17 +401,9 @@ body {
   .popup__left:hover {
     color: red; }
 
-.section-about {
-  background-color: #f7f7f7;
-  padding: 25rem 0; }
-
 .section-project {
   background-color: #fff;
-  padding: 0rem 0; }
-
-.section-project-ribbon {
-  background-color: #fff;
-  padding: 0rem 0; }
+  padding: 5rem 0; }
 
 .work-image {
   width: 100%; }
@@ -429,9 +448,19 @@ body {
 
 .header {
   height: 100vh;
-  background-size: cover;
-  background-position: top;
   position: relative; }
+  .header__project-box-title {
+    margin-left: 10rem;
+    margin-top: 5rem; }
+  .header__project-box-opening {
+    margin-left: 10rem;
+    margin-top: 0;
+    position: relative;
+    z-index: 2; }
+  .header__text-box {
+    position: absolute;
+    top: 30%;
+    left: 10%; }
   .header__logo-box {
     position: absolute;
     top: 3rem;
@@ -441,11 +470,6 @@ body {
   .header__logo:hover {
     animation-name: moveInLeft;
     animation-duration: 3s; }
-  .header__text-box {
-    position: absolute;
-    top: 30%;
-    left: 10%;
-    text-align: left; }
   .header__project-box {
     margin-left: 10rem;
     margin-top: 3rem;
@@ -458,11 +482,6 @@ body {
     left: 50%;
     padding-top: 6rem;
     text-align: center; }
-  .header__project-box-opening {
-    margin-left: 10rem;
-    width: 85vw;
-    left: 50%;
-    text-align: left; }
   .header__project-box-opening-hcs {
     margin-left: 10rem;
     bottom: 500rem;

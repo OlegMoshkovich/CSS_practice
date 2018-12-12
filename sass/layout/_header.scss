@@ -1,14 +1,25 @@
 .header{
   height:100vh;
-  // background-image: linear-gradient(
-  // to right bottom,
-  // rgba($color-primary-light, 0.5),
-  // rgba($color-dark-grey, 0.5)),
-  // url(../img/project0/image6.png);
-  background-size: cover;
-  background-position: top;
   position: relative;
-  // clip-path:polygon(0 0, 100% 0, 100% 75vh,0 100%);
+  &__project-box-title{
+    margin-left: 10rem;
+    margin-top:5rem
+  }
+  &__project-box-opening{
+    margin-left: 10rem;
+    margin-top:0;
+    position:relative;
+    z-index: 2
+  }
+  &__text-box{
+    position: absolute;
+    top:30%;
+    left:10%;
+  }
+
+
+
+
   &__logo-box{
     position: absolute;
     top:3rem;
@@ -21,13 +32,7 @@
     animation-name: moveInLeft;
     animation-duration: 3s;
   }
-  &__text-box{
-    position: absolute;
-    top:30%;
-    left:10%;
-    // transform:translate(-50%, -50%);
-    text-align: left;
-  }
+
   &__project-box{
     margin-left: 10rem;
     margin-top:3rem;
@@ -46,14 +51,7 @@
     // transform:translate(-50%, -50%);
     text-align: center;
   }
-  &__project-box-opening{
-    margin-left: 10rem;
 
-    width:85vw;
-    left:50%;
-    // transform:translate(-50%, -50%);
-    text-align: left;
-  }
   &__project-box-opening-hcs{
     margin-left: 10rem;
     bottom:500rem;
