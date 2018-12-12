@@ -4,6 +4,30 @@
   // margin-top: -20vh;
 }
 
+.section-title{
+  background-color:$color-white;
+  margin-top:0rem;
+  margin-bottom:0rem;
+  // margin-top: -20vh;
+}
+
+.section-page1{
+  // background-color:$color-white;
+  margin-bottom:0rem;
+  // margin-top: -20vh;
+}
+
+.project-image_main{
+  text-align: center;
+  z-index: 1
+}
+.work-image-title{
+  width:60%;
+  position:relative;
+  margin-bottom:10rem
+}
+
+
 
 
 .work-image{
@@ -13,10 +37,6 @@
   width:100%;
 }
 
-.work-image-title{
-  width:80%;
-  position:relative;
-}
 
 .work-image-title-hcs{
   width:70%;
@@ -29,10 +49,7 @@
   width:70%;
 }
 
-.section-open{
-  text-align: center;
-  z-index: 1
-}
+
 .section-open-ribbon{
   text-align: center;
   z-index: 1;

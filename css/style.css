@@ -47,6 +47,40 @@ body {
   padding: 0rem;
   box-sizing: border-box; }
 
+.project_text {
+  color: blue;
+  display: block;
+  width: 70vw;
+  font-size: 6rem;
+  font-weight: 300;
+  letter-spacing: .1rem;
+  line-height: 7.5rem;
+  backface-visibility: hidden;
+  margin-bottom: 6rem; }
+
+.global_title {
+  position: absolute;
+  left: 7%;
+  top: -2rem;
+  background-color: #0029FF;
+  text-decoration: none;
+  color: #fff;
+  font-weight: 300;
+  font-size: 2.5rem; }
+
+.project_title {
+  background-color: #0029FF;
+  text-decoration: none;
+  color: #fff;
+  font-weight: 300;
+  font-size: 2.5rem; }
+
+.heading-primary--project {
+  font-weight: 300;
+  letter-spacing: .1rem;
+  margin-bottom: 6rem;
+  color: blue; }
+
 .logo-header {
   color: #282828;
   font-size: 2rem;
@@ -119,40 +153,6 @@ body {
   font-weight: 200; }
   .paragraph:not(:last-child) {
     margin-bottom: 3rem; }
-
-.project_text {
-  color: blue;
-  display: block;
-  width: 70vw;
-  font-size: 6rem;
-  font-weight: 300;
-  letter-spacing: .1rem;
-  line-height: 7.5rem;
-  backface-visibility: hidden;
-  margin-bottom: 6rem; }
-
-.global_title {
-  position: absolute;
-  left: 7%;
-  top: -2rem;
-  background-color: #0029FF;
-  text-decoration: none;
-  color: #fff;
-  font-weight: 300;
-  font-size: 2.5rem; }
-
-.project_title {
-  background-color: #0029FF;
-  text-decoration: none;
-  color: #fff;
-  font-weight: 300;
-  font-size: 2.5rem; }
-
-.heading-primary--project {
-  font-weight: 300;
-  letter-spacing: .1rem;
-  margin-bottom: 6rem;
-  color: blue; }
 
 .u-center-text {
   text-align: center; }
@@ -405,15 +405,28 @@ body {
   background-color: #fff;
   padding: 5rem 0; }
 
+.section-title {
+  background-color: #fff;
+  margin-top: 0rem;
+  margin-bottom: 0rem; }
+
+.section-page1 {
+  margin-bottom: 0rem; }
+
+.project-image_main {
+  text-align: center;
+  z-index: 1; }
+
+.work-image-title {
+  width: 60%;
+  position: relative;
+  margin-bottom: 10rem; }
+
 .work-image {
   width: 100%; }
 
 .work-image-ribbon {
   width: 100%; }
-
-.work-image-title {
-  width: 80%;
-  position: relative; }
 
 .work-image-title-hcs {
   width: 70%;
@@ -421,10 +434,6 @@ body {
 
 .work-image-gif {
   width: 70%; }
-
-.section-open {
-  text-align: center;
-  z-index: 1; }
 
 .section-open-ribbon {
   text-align: center;
@@ -461,6 +470,11 @@ body {
     position: absolute;
     top: 30%;
     left: 10%; }
+  .header__project-box-page1 {
+    margin-left: 10rem;
+    width: 75%;
+    position: relative;
+    z-index: 2; }
   .header__logo-box {
     position: absolute;
     top: 3rem;

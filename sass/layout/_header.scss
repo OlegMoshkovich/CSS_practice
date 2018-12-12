@@ -1,6 +1,7 @@
 .header{
   height:100vh;
   position: relative;
+
   &__project-box-title{
     margin-left: 10rem;
     margin-top:5rem
@@ -16,7 +17,12 @@
     top:30%;
     left:10%;
   }
-
+  &__project-box-page1{
+    margin-left: 10rem;
+    width:75%;
+    position:relative;
+    z-index: 2
+  }
 
 
 
