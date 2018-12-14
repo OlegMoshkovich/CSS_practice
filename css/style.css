@@ -113,7 +113,7 @@ section{
 .video-gs{
   display: block;
   width: 80%;
-  margin: 5rem 4rem auto;
+  margin: 5rem 4rem 10rem;
   position: relative;
 
 }
@@ -121,6 +121,27 @@ section{
 .space{
   width:100%;
   padding-top:1rem;
+}
+.img-tertiary-container{
+  margin-top: 1rem;
+  /* border:1px solid blue; */
+}
+
+.img-tertiary-container-hcs{
+  margin-top: 15rem;
+  /* border:1px solid blue; */
+}
+
+.img-col{
+  width:100%;
+  margin-right:10rem;
+  /* border:1px solid blue; */
+}
+.img-col-hcs{
+  display:block;
+  width:90%;
+  margin-left:-4rem;
+  border:1px solid blue;
 }
 
 .description-long-box{
@@ -136,6 +157,14 @@ section{
   top:3rem;
   left:6rem;
 }
+.description-long-box-bottom-gs{
+  position:relative;
+  margin-bottom:10rem;
+  width:85%;
+  top:6rem;
+  left:6rem;
+}
+
 .description{
   font-size:2.5rem;
   font-weight: 300;
@@ -188,14 +217,7 @@ section{
     border: 1px solid blue;
 }
 
-.img-tertiary-container{
-  margin-top: 12rem;
-}
-.img-col{
-  width:100%;
-  margin-right:10rem;
-  /* border:1px solid blue; */
-}
+
 
 
 .row {
@@ -225,7 +247,7 @@ section{
   .row .col-3-of-4 {
     width: calc( 3*((100% - 3 * 6rem) / 4) + 2*6rem); }
 
-.navigation__button {
+.navigation__button-home {
   font-size: 1.5rem;
   color: #fff;
   position: fixed;
@@ -333,7 +355,7 @@ width: 1.5rem;
 user-select: none;
 text-align: center; }
 
-.navigation__button-link5 {
+.navigation__button-linkedin {
 font-size: 1.5rem;
 color: #fff;
 position: fixed;
