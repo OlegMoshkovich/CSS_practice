@@ -56,7 +56,7 @@
 
 
         <div class="title-box">
-            <div class="project_title">Oleg Moshkovich / Front End Engineer</div>
+            <div class="project_title">Oleg Moshkovich / Engineer</div>
         </div>
         <div class="hero-text-box">
           <h1 class = "header-text">
@@ -77,12 +77,12 @@
         <section class="section-gs" id="gs1">
           <div class="description-long-box" >
             <div class = "description">
-              In 2017 I joined <a href="https://omission.studio/" class="link" target = _blank >omission.studio</a>, that was engaged by the Girls Scouts of America, to develop the concept, the vision and the design of the GS mobile app to be released <br>in 2020.
-              The process of design and execution was unique and comprehensive - conducted by people with varied, however complimentary points of view.
-              <p>I was responsible for the front end portion of the product - which included  unity and react native development.</p>
+              In 2017 I joined <a href="https://omission.studio/" class="link" target = _blank >omission.studio</a>, то develope a high fidelity protype of the Girls Scouts mobile application for 2020 release.
+              <br>
+              <p></p>
             </div>
           </div>
-          <div class = img-tertiary-container>
+          <div class = img-tertiary-container-gs style = "padding-bottom:100rem">
             <div class="row" >
               <div class="col-1-of-3">
                 <img class = "img-col"src="img/gs/gs1.png" alt="">
@@ -94,16 +94,34 @@
               <img class = "img-col"src="img/gs/gs3.png" alt="">
             </div>
           </div>
+          <div class="row" >
+            <div class="col-1-of-3">
+              <img class = "img-col"src="img/gs/gs1.png" alt="">
+            </div>
+          <div class="col-1-of-3">
+            <img class = "img-col"src="img/gs/gs4.png" alt="">
+          </div>
+          <div class="col-1-of-3">
+            <img class = "img-col"src="img/gs/gs3.png" alt="">
+          </div>
+        </div>
           <div class="description-long-box-bottom-gs"  >
               <div class = "description" >
                 <!-- It was decided to start the de sign with the ecosty of application all connected through an intiutive system of navigation.
                 The choices made were based of comprehensive study of the Generation Z user, as well cultutral and technical awareness?? -->
-                The chosen approach was to design, organize and test the maximum amount of 'feature groups' into the mobile application in order to create compeling experience
-                for the generation Z user- in the form of the digital 'safe space' ecosystem.
+                <!-- The chosen approach was to design, organize and test the maximum amount of 'feature groups' into the mobile application in order to create compeling experience
+                for the generation Z user- in the form of the digital 'safe space' ecosystem. -->
               </div>
           </div>
         </section>
+
         <section class="section-gs" id="gs2" alt ="full image">
+          <div class="description-long-box" >
+            <div class = "description">
+              In 2017 I joined <a href="https://omission.studio/" class="link" target = _blank >omission.studio</a>, то develope a high fidelity protype of the Girls Scouts mobile application for 2020 release.
+              <br>
+              <p></p>
+            </div>
           <div class = space></div>
           <div class="img-main-box">
             <img class = "img-secondary"src="img/gs/map.png"  alt="">
@@ -213,19 +231,19 @@
 
           <div class="description-long-box" >
             <div class = "description">
-                Initially my role was to shape the product, which transformed to front-end and unity developments.
+                Initially my role was to shape the product, which transformed to front-end and unity developments during pilot phase.
             </div>
           </div>
           <div class="img-tertiary-container-hcs" style = "margin-left:10rem">
             <div class="row">
               <div class="col-1-of-3">
-                <img class = "img-col-hcs"src="img/hcs/image3.png" alt="">
+                <img class = "img-col-hcs"src="img/hcs/image2.png" alt="">
               </div>
               <div class="col-1-of-3">
-                <img class = "img-col-hcs"  src="img/hcs/image2.png" alt="">
+                <img class = "img-col-hcs"  src="img/hcs/image1.png" alt="">
               </div>
               <div class="col-1-of-3">
-                <img class = "img-col-hcs"  src="img/hcs/image4.png" alt="">
+                <img class = "img-col-hcs"  src="img/hcs/image3.png" alt="">
               </div>
             </div>
           </div>
@@ -245,7 +263,7 @@
 
           <div class="description-long-box-bottom" style="top:10rem" >
             <div class = "description" style ="margin-bottom:19rem;">
-              In August of 2017 Human Condition Safety was internalize by AIG.
+              In August of 2017 Human Condition Safety was acquired by AIG.
             </div>
           </div>
         </section>
@@ -290,29 +308,29 @@
 
 
         /////simulation of the asynchronous patter with the Promises --- Promises
-        const getIDs = new Promise((resolve,reject)=>{
-          setTimeout(()=>{
-            resolve([32,34,45])
-          },2000)
-        })
+        // const getIDs = new Promise((resolve,reject)=>{
+        //   setTimeout(()=>{
+        //     resolve([32,34,45])
+        //   },2000)
+        // })
+        //
+        // const getRecipe = (recipeID) =>{
+        //   return new Promise((resolve, reject) =>{
+        //     setTimeout(ID=>{
+        //         const recipe = {title:'Fresh tomato pasta', publisher:'jonas'}
+        //         resolve(`${ID}:${recipe.title}`)
+        //     },2000,recipeID)
+        //   })
+        // }
 
-        const getRecipe = (recipeID) =>{
-          return new Promise((resolve, reject) =>{
-            setTimeout(ID=>{
-                const recipe = {title:'Fresh tomato pasta', publisher:'jonas'}
-                resolve(`${ID}:${recipe.title}`)
-            },2000,recipeID)
-          })
-        }
-
-        const relatedRecipe = publisher =>{
-          return new Promise((resolve, reject) =>{
-            setTimeout(pub =>{
-              const recipe = {title:'italian pizza', publisher:'jonas'}
-              resolve(`${pub}:${recipe.title}`)
-            },2000,publisher)
-          })
-        }
+        // const relatedRecipe = publisher =>{
+        //   return new Promise((resolve, reject) =>{
+        //     setTimeout(pub =>{
+        //       const recipe = {title:'italian pizza', publisher:'jonas'}
+        //       resolve(`${pub}:${recipe.title}`)
+        //     },2000,publisher)
+        //   })
+        // }
 
         // getIDs.then( IDs => {
         //         console.log('logginf successfully obtained results',IDs)
@@ -329,16 +347,20 @@
         //         console.log('the error of the promise',error)
         //       })
 
-        async function getRecipeAW(){
-          const IDs = await getIDs;
-          console.log(IDs);
-          const recipe = await getRecipe(IDs[2]);
-          console.log(recipe);
-          const related = await relatedRecipe('jonas')
-          console.log(related);
-          return recipe
-        }
-        getRecipeAW().then(result => console.log('loggin the result'+result));
+        // async function getRecipeAW(){
+        //   const IDs = await getIDs;
+        //   console.log(IDs);
+        //   const recipe = await getRecipe(IDs[2]);
+        //   console.log(recipe);
+        //   const related = await relatedRecipe('jonas')
+        //   console.log(related);
+        //   return recipe
+        // }
+        //
+        // getRecipeAW().then(result => console.log('loggin the result'+result));
+
+        fetch('https://corsproxy.github.io/https://www.metaweather.com/api/location/44418/')
+
 
 
         </script>

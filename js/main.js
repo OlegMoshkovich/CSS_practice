@@ -23,7 +23,7 @@ var array = ['Frontend engineering.', 'Product Design.',  'Balance.'];
 //   document.querySelector('.navigation__button-link5').style.display = 'none'
 // })
 
-document.querySelector('.bg-video__content').defaultPlaybackRate = .5;
+  // document.querySelector('.bg-video__content').defaultPlaybackRate = .5;
 
 // array.forEach(function (el,index) {
 //   setTimeout(function () {
@@ -32,7 +32,7 @@ document.querySelector('.bg-video__content').defaultPlaybackRate = .5;
 //   }, index * 2000);
 // })
 
-document.querySelector('.bg-video__content').defaultPlaybackRate = .5;
+  // document.querySelector('.bg-video__content').defaultPlaybackRate = .5;
 // document.querySelector('video').play()
 
 //Closures

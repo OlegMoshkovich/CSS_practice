@@ -67,6 +67,7 @@ section{
   position:relative ;
   display: inline-block;
   top:3rem;
+  padding-right:10rem;
   left:6rem;
 }
 
@@ -126,6 +127,10 @@ section{
   margin-top: 1rem;
   /* border:1px solid blue; */
 }
+.img-tertiary-container-gs{
+  margin-top: 1rem;
+  /* border:1px solid blue; */
+}
 
 .img-tertiary-container-hcs{
   margin-top: 15rem;
@@ -141,7 +146,7 @@ section{
   display:block;
   width:90%;
   margin-left:-4rem;
-  border:1px solid blue;
+  outline:.3px solid blue;
 }
 
 .description-long-box{
