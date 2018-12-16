@@ -30,7 +30,7 @@
     <span class = "blink_me">_</span>
     <a href="#" style = "text-decoration:none; color:white">  <span class = "title">></span></a>
   </label>
-  
+
   <ul class="main-nav">
     <!-- <li ><a  class="link" href="#header">0</a></li> -->
     <li ><a class="link" href="#gs">1</a></li>
@@ -144,7 +144,7 @@
           <div class="img-tertiary-container" style = "margin-left:10rem; margin-top:15rem;">
             <div class="row">
               <div class="col-1-of-2">
-                <img class = "img-col"src="img/gs/WORLD.png" alt="">
+                <img class = "img-col"src="img/gs/WORLD.png" style = "width:100%">
               </div>
               <div class="col-1-of-2" >
                 <img class = "img-col" style = "width:80%;margin-left:5rem;margin-bottom:10rem" src="img/short/image/project1/image_gif.gif" alt="">
@@ -241,9 +241,6 @@
               Human Condition Safety was aquired by AiG in August of 2017...little bit ironic
           </div>
         </section>
-
-
-
       </section>
 
       <section id="10">
@@ -255,89 +252,38 @@
               <img class = "img-main-ribbon" src="img/ribbon_dwg.png"  alt="">
           </div>
         </section>
+
+        <section class="section-ribbon" id="101">
+          <div class="description-long-box" >
+            <div class = "description">
+
+               I was asked to move to Hong Kong for 6 month to consult 10 Design <br> during design development phase of the project.
+                 As a computational designer I created  parametric models contolled by a comprehensive set of data points.
+
+          </div>
+          <div class="img-tertiary-container-ribbon" style = "margin-left:10rem; ">
+            <div class="row">
+              <div class="col-1-of-3">
+                <img class = "img-col-hcs"src="img/ribbon1.png" alt="">
+              </div>
+              <div class="col-1-of-3">
+                <img class = "img-col-hcs"  src="img/ribbon2.png" alt="">
+              </div>
+              <div class="col-1-of-3">
+                <img class = "img-col-hcs"  src="img/ribbon3.png" alt="">
+              </div>
+            </div>
+          </div>
+
+          <div class="img-main-box-ribbon"  >
+              <img class = "img-main-ribbon-photo" src="img/ribbon_realized.png"  alt="">
+          </div>
+        </section>
       </section>
 
 
         <script src="js/main.js"></script>
         <script>
-        /////simulation of the asynchronous patter with the setTimeout
-        // function getRecipe(){
-        //
-        //   setTimeout(()=>{
-        //     const recipeID = [32,34,45];
-        //     console.log(recipeID);
-        //
-        //     setTimeout(id=>{
-        //       const recipe = {title:'Fresh tomato pasta', publisher:'jonas'}
-        //       console.log(`${id}--${recipe.title}`)
-        //
-        //       setTimeout(publisher => {
-        //         const recipe2 = {title:'italian pizza', publisher:'jonas'}
-        //         console.log(recipe)
-        //       },1500,recipe.publisher)
-        //
-        //     },1000, recipeID[2])
-        //
-        //   },2000)
-        // }
-        // getRecipe()
-
-
-
-        /////simulation of the asynchronous patter with the Promises --- Promises
-        // const getIDs = new Promise((resolve,reject)=>{
-        //   setTimeout(()=>{
-        //     resolve([32,34,45])
-        //   },2000)
-        // })
-        //
-        // const getRecipe = (recipeID) =>{
-        //   return new Promise((resolve, reject) =>{
-        //     setTimeout(ID=>{
-        //         const recipe = {title:'Fresh tomato pasta', publisher:'jonas'}
-        //         resolve(`${ID}:${recipe.title}`)
-        //     },2000,recipeID)
-        //   })
-        // }
-
-        // const relatedRecipe = publisher =>{
-        //   return new Promise((resolve, reject) =>{
-        //     setTimeout(pub =>{
-        //       const recipe = {title:'italian pizza', publisher:'jonas'}
-        //       resolve(`${pub}:${recipe.title}`)
-        //     },2000,publisher)
-        //   })
-        // }
-
-        // getIDs.then( IDs => {
-        //         console.log('logginf successfully obtained results',IDs)
-        //         return getRecipe(IDs[2])
-        //       })
-        //       .then(recipe =>{
-        //         console.log('from the second function --' +recipe)
-        //         return relatedRecipe('jonas')
-        //       })
-        //       .then(recipe =>{
-        //         console.log(recipe)
-        //       })
-        //       .catch( error =>{
-        //         console.log('the error of the promise',error)
-        //       })
-
-        // async function getRecipeAW(){
-        //   const IDs = await getIDs;
-        //   console.log(IDs);
-        //   const recipe = await getRecipe(IDs[2]);
-        //   console.log(recipe);
-        //   const related = await relatedRecipe('jonas')
-        //   console.log(related);
-        //   return recipe
-        // }
-        //
-        // getRecipeAW().then(result => console.log('loggin the result'+result));
-
-        fetch('https://corsproxy.github.io/https://www.metaweather.com/api/location/44418/')
-
 
 
         </script>

@@ -57,3 +57,82 @@ var array = ['Frontend engineering.', 'Product Design.',  'Balance.'];
 // }
 //
 // document.querySelector('.button').addEventListener("click", execute);
+
+
+/////simulation of the asynchronous patter with the setTimeout
+// function getRecipe(){
+//
+//   setTimeout(()=>{
+//     const recipeID = [32,34,45];
+//     console.log(recipeID);
+//
+//     setTimeout(id=>{
+//       const recipe = {title:'Fresh tomato pasta', publisher:'jonas'}
+//       console.log(`${id}--${recipe.title}`)
+//
+//       setTimeout(publisher => {
+//         const recipe2 = {title:'italian pizza', publisher:'jonas'}
+//         console.log(recipe)
+//       },1500,recipe.publisher)
+//
+//     },1000, recipeID[2])
+//
+//   },2000)
+// }
+// getRecipe()
+
+
+
+/////simulation of the asynchronous patter with the Promises --- Promises
+// const getIDs = new Promise((resolve,reject)=>{
+//   setTimeout(()=>{
+//     resolve([32,34,45])
+//   },2000)
+// })
+//
+// const getRecipe = (recipeID) =>{
+//   return new Promise((resolve, reject) =>{
+//     setTimeout(ID=>{
+//         const recipe = {title:'Fresh tomato pasta', publisher:'jonas'}
+//         resolve(`${ID}:${recipe.title}`)
+//     },2000,recipeID)
+//   })
+// }
+
+// const relatedRecipe = publisher =>{
+//   return new Promise((resolve, reject) =>{
+//     setTimeout(pub =>{
+//       const recipe = {title:'italian pizza', publisher:'jonas'}
+//       resolve(`${pub}:${recipe.title}`)
+//     },2000,publisher)
+//   })
+// }
+
+// getIDs.then( IDs => {
+//         console.log('logginf successfully obtained results',IDs)
+//         return getRecipe(IDs[2])
+//       })
+//       .then(recipe =>{
+//         console.log('from the second function --' +recipe)
+//         return relatedRecipe('jonas')
+//       })
+//       .then(recipe =>{
+//         console.log(recipe)
+//       })
+//       .catch( error =>{
+//         console.log('the error of the promise',error)
+//       })
+
+// async function getRecipeAW(){
+//   const IDs = await getIDs;
+//   console.log(IDs);
+//   const recipe = await getRecipe(IDs[2]);
+//   console.log(recipe);
+//   const related = await relatedRecipe('jonas')
+//   console.log(related);
+//   return recipe
+// }
+//
+// getRecipeAW().then(result => console.log('loggin the result'+result));
+
+fetch('https://corsproxy.github.io/https://www.metaweather.com/api/location/44418/')
