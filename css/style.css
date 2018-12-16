@@ -21,6 +21,14 @@ header{
   background-position: center;
   height: 100vh;
 }
+footer{
+  width:100%;
+  height:7.5rem;
+  background-color: white;
+  text-align: center;
+  /* border-top:1px solid blue; */
+
+}
 section{
   /* background-size: cover; */
   /* background-position: center; */
@@ -87,6 +95,7 @@ section{
   /* width:100%; */
 }
 .img-main-box-ribbon{
+  text-align:center;
   display:inline-block;
   height:100%;
   margin-top:5rem;
@@ -98,15 +107,17 @@ section{
   margin: 8rem auto;
   position: relative;
 }
+
 .img-main-ribbon{
   display: block;
   width: 90%;
   margin: 2rem auto;
-  position: relative;
+  position: relativeimg-main-ribbon-photo;
 }
 .img-main-ribbon-photo{
-  display: block;
-  margin: 2rem auto 10rem;
+  width:80%;
+  display: inline-block;
+  margin: 10rem auto 10rem;
   position: relative;
 }
 
@@ -152,7 +163,8 @@ section{
   /* border:1px solid blue; */
 }
 .img-tertiary-container-ribbon{
-  margin-top: 10rem;
+  display:inline-block;
+  margin: 10rem auto 12rem;
   /* margin-bottom: 80rem; */
   /* border:1px solid blue; */
 }
@@ -164,6 +176,12 @@ section{
 .img-col-hcs{
   display:block;
   width:90%;
+  margin-left:-4rem;
+  outline:.3px solid blue;
+}
+.img-col-ribbon{
+  display:inline-block;
+  width:120%;
   margin-left:-4rem;
   outline:.3px solid blue;
 }
