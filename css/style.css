@@ -37,7 +37,7 @@ section{
   top:1rem;
   font-size:1.5rem;
   animation: blinker 1s ;
-  animation-iteration-count: 5;
+  animation-iteration-count: 30;
 }
 
 @keyframes blinker {
@@ -105,10 +105,16 @@ section{
   margin: 8rem auto;
   position: relative;
 }
+.video-box{
+  height:100%;
+  text-align:center;
+  /* width:100%; */img-tertiary-container-hcs
+}
 .video{
-  display: block;
-  width: 70%;
-  margin:10rem auto 10rem auto;
+  display: inline-block;
+  /* top:40rem; */
+  width: 40%;
+  margin:13rem auto 10rem auto;
   position: relative;
 }
 .video-gs{
@@ -127,13 +133,11 @@ section{
   margin-top: 1rem;
   /* border:1px solid blue; */
 }
-.img-tertiary-container-gs{
-  margin-top: 1rem;
-  /* border:1px solid blue; */
-}
+
 
 .img-tertiary-container-hcs{
   margin-top: 15rem;
+  margin-bottom: 80rem;
   /* border:1px solid blue; */
 }
 
@@ -191,7 +195,7 @@ section{
   float:right;
   text-decoration: none;
   list-style: none;
-  margin-top:25rem;
+  margin-top:24rem;
   z-index:12;
   /* border: 1px solid blue; */
 }
