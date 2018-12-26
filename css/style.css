@@ -219,6 +219,14 @@ section{
   color: black;
 }
 
+#none{
+  color:white;
+  cursor:default;
+}
+#none:hover{
+  border-color: white;
+}
+
 
 
 
@@ -228,7 +236,8 @@ section{
   float:right;
   text-decoration: none;
   list-style: none;
-  margin-top:24rem;
+  /* margin-top:24rem; */
+  margin-top:18rem;
   z-index:12;
   /* border: 1px solid blue; */
 }
