@@ -3,6 +3,37 @@
 // var array = ['Frontend engineering.', 'Product Design.',  'Balance.'];
 console.log( "the current page is " + window.location.href);
 
+
+window.addEventListener('scroll', function(e) {
+  last_known_scroll_position = window.scrollY;
+
+  console.log(last_known_scroll_position)
+  if (window.pageYOffset > 745 && document.documentElement.scrollTop < 5480) {
+    document.getElementById("gs-nav").classList.remove('none');
+  }else{
+    document.getElementById("gs-nav").classList.add('none');
+  }
+
+  if (window.pageYOffset > 5480 && document.documentElement.scrollTop < 7840) {
+    document.getElementById("hcs-nav").classList.remove('none');
+  }else{
+    document.getElementById("hcs-nav").classList.add('none');
+  }
+
+  if (window.pageYOffset > 7842 && document.documentElement.scrollTop < 10000) {
+    document.getElementById("10-nav").classList.remove('none');
+  }else{
+    document.getElementById("10-nav").classList.add('none');
+  }
+
+  // console.log(last_known_scroll_position)
+
+  // while (last_known_scroll_position < 10431){
+  //   document.querySelector(".main-nav").style.display = "block";
+  // // alert(last_known_scroll_position)
+  // }
+})
+
 // document.querySelector('.navigation__button-link3').addEventListener("click", function(){
 //   document.querySelector('.navigation__button-link3').style.display = 'none'
 // })

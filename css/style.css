@@ -219,12 +219,15 @@ section{
   color: black;
 }
 
-#none{
+/* #none{
   color:white;
   cursor:default;
 }
 #none:hover{
   border-color: white;
+} */
+.none{
+  display:none;
 }
 
 
@@ -236,11 +239,12 @@ section{
   float:right;
   text-decoration: none;
   list-style: none;
-  /* margin-top:24rem; */
-  margin-top:18rem;
+  margin-top:24rem;
+  /* margin-top:18rem; */
   z-index:12;
   /* border: 1px solid blue; */
 }
+
 
 .main-nav li{
   display:block;
