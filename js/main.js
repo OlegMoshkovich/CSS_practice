@@ -1,7 +1,7 @@
 // document.querySelector('#focus').style.background = getRandomColor()
 
-var array = ['Frontend engineering.', 'Product Design.',  'Balance.'];
-
+// var array = ['Frontend engineering.', 'Product Design.',  'Balance.'];
+console.log( "the current page is " + window.location.href);
 
 // document.querySelector('.navigation__button-link3').addEventListener("click", function(){
 //   document.querySelector('.navigation__button-link3').style.display = 'none'
@@ -134,5 +134,3 @@ var array = ['Frontend engineering.', 'Product Design.',  'Balance.'];
 // }
 //
 // getRecipeAW().then(result => console.log('loggin the result'+result));
-
-fetch('https://corsproxy.github.io/https://www.metaweather.com/api/location/44418/')

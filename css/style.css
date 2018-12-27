@@ -318,6 +318,7 @@ section{
 
 .navigation__button-10 {
 font-size: 1.5rem;
+text-decoration:none;
 color: #fff;
 position: fixed;
 top: 4.9rem;
@@ -331,23 +332,10 @@ width: 1.5rem;
 user-select: none;
 text-align: center; }
 
-.navigation__button-hcs {
-font-size: 1.5rem;
-color: #fff;
-position: fixed;
-top: 4.9rem;
-right: 11rem;
-background-color: #0029FF;
-z-index: 1000;
-border-radius: 50%;
-height: 1.5rem;
-width: 1.5rem;
--webkit-touch-callout: none;
-user-select: none;
-text-align: center; }
 
 .navigation__button-hcs {
 font-size: 1.5rem;
+text-decoration:none;
 color: #fff;
 position: fixed;
 top: 4.9rem;
@@ -363,6 +351,7 @@ text-align: center; }
 
 .navigation__button-gs {
 font-size: 1.5rem;
+text-decoration:none;
 color: #fff;
 position: fixed;
 top: 7rem;
@@ -390,6 +379,37 @@ width: 1.5rem;
 -webkit-touch-callout: none;
 user-select: none;
 text-align: center; }
+
+.navigation__button-instagram-icon {
+display: block;
+position: fixed;
+width: 20px;
+height: 20px;
+background: blue;
+
+-moz-border-radius: 50%;
+-webkit-border-radius: 50%;
+
+
+
+bottom: 4rem;
+right: 4rem;
+z-index: 1000;
+text-align: center; }
+
+.cirlce_img{
+display:inline-block;
+height:50%;
+margin-bottom:2px;
+}
+.circle_num{
+color:white;
+font-size: 0.8rem;
+text-decoration: none;
+margin-top:1.5px
+}
+
+
 
 .navigation__button-github {
 font-size: 1.5rem;
