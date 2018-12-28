@@ -1,30 +1,57 @@
 // document.querySelector('#focus').style.background = getRandomColor()
 
 // var array = ['Frontend engineering.', 'Product Design.',  'Balance.'];
-console.log( "the current page is " + window.location.href);
+
+
+
+const classToggle = (startPos, endPos, elClass, addClass) => {
+  if (window.pageYOffset > startPos && document.documentElement.scrollTop < endPos) {
+    document.getElementById(elClass).classList.remove(addClass);
+  }else{
+    document.getElementById(elClass).classList.add(addClass);
+  }
+}
+
+const classSelect = (startPos, endPos, elClass, addClass) => {
+  if (window.pageYOffset > startPos && document.documentElement.scrollTop < endPos) {
+    document.querySelector(elClass).classList.add(addClass);
+  }else{
+    document.querySelector(elClass).classList.remove(addClass);
+  }
+}
 
 
 window.addEventListener('scroll', function(e) {
-  last_known_scroll_position = window.scrollY;
+  console.log( "the current page is " + document.documentElement.scrollTop);
+  classToggle(745,5200,"gs-nav","none");
+  classToggle(4600,7840,"hcs-nav","none");
+  classToggle(7842,10000,"10-nav","none");
 
-  console.log(last_known_scroll_position)
-  if (window.pageYOffset > 745 && document.documentElement.scrollTop < 5480) {
-    document.getElementById("gs-nav").classList.remove('none');
-  }else{
-    document.getElementById("gs-nav").classList.add('none');
-  }
+  classSelect(745,1500,".gs1","select");
+  classSelect(1500,2280,".gs2","select");
+  classSelect(2280,3000,".gs3","select");
+  classSelect(3000,3800,".gs4","select");
+  classSelect(4500,5200,".gs5","select");
+  // classSelect(854,954,"gs2","select");
 
-  if (window.pageYOffset > 5480 && document.documentElement.scrollTop < 7840) {
-    document.getElementById("hcs-nav").classList.remove('none');
-  }else{
-    document.getElementById("hcs-nav").classList.add('none');
-  }
 
-  if (window.pageYOffset > 7842 && document.documentElement.scrollTop < 10000) {
-    document.getElementById("10-nav").classList.remove('none');
-  }else{
-    document.getElementById("10-nav").classList.add('none');
-  }
+  // if (window.pageYOffset > 745 && document.documentElement.scrollTop < 5480) {
+  //   document.getElementById("gs-nav").classList.remove('none');
+  // }else{
+  //   document.getElementById("gs-nav").classList.add('none');
+  // }
+
+  // if (window.pageYOffset > 5480 && document.documentElement.scrollTop < 7840) {
+  //   document.getElementById("hcs-nav").classList.remove('none');
+  // }else{
+  //   document.getElementById("hcs-nav").classList.add('none');
+  // }
+
+  // if (window.pageYOffset > 7842 && document.documentElement.scrollTop < 10000) {
+  //   document.getElementById("10-nav").classList.remove('none');
+  // }else{
+  //   document.getElementById("10-nav").classList.add('none');
+  // }
 
   // console.log(last_known_scroll_position)
 

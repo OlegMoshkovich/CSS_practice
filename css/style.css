@@ -29,11 +29,7 @@ footer{
   /* border-top:1px solid blue; */
 
 }
-section{
-  /* background-size: cover; */
-  /* background-position: center; */
-  /* height: 100vh; */
-}
+
 .title {
   position:relative;
   top:1rem;
@@ -89,6 +85,7 @@ section{
   font-weight: 300;
   font-size: 2.5rem;
 }
+
 
 .img-main-box{
   height:100%;
@@ -213,52 +210,11 @@ section{
   letter-spacing: .1rem;
   color: blue;
 }
-.link{
-  color:'black';
-  text-decoration: none;
-  color: black;
-}
 
-/* #none{
-  color:white;
-  cursor:default;
-}
-#none:hover{
-  border-color: white;
-} */
 .none{
   display:none;
 }
-
-
-
-
-.main-nav{
-  position:fixed;
-  right:2.4rem;
-  float:right;
-  text-decoration: none;
-  list-style: none;
-  margin-top:24rem;
-  /* margin-top:18rem; */
-  z-index:12;
-  /* border: 1px solid blue; */
-}
-
-
-.main-nav li{
-  display:block;
-  margin:1rem;
-  /* height: 1.5rem;
-  width: 1.5rem;
-  background-color: red;
-  border-radius: 50%; */
-  text-decoration:none;
-  z-index:10;
-}
-
-.main-nav li a:link,
-.main-nav li a:visited {
+.side-nav{
   z-index:5;
   color:blue;
   text-decoration: none;
@@ -267,10 +223,31 @@ section{
   border: 1px solid transparent;
 }
 
-.main-nav li a:hover,
-.main-nav li a:active {
-    border: 1px solid blue;
+.select{
+  border: 1px solid blue;
 }
+.side-nav:hover{
+  border: 1px solid blue;
+}
+
+.main-nav{
+  position:fixed;
+  right:2.4rem;
+  float:right;
+  text-decoration: none;
+  list-style: none;
+  margin-top:24rem;
+  z-index:12;
+}
+
+.main-nav li{
+  display:block;
+  margin:1rem;
+  text-decoration:none;
+  z-index:10;
+}
+
+
 
 
 
